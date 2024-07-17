@@ -34,15 +34,15 @@
     },
     "facebookUrl": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "xUrl": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "linkedInUrl": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
