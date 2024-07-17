@@ -804,9 +804,9 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
     designation: Attribute.String & Attribute.Required;
     profileImage: Attribute.Media<'images'> & Attribute.Required;
     description: Attribute.String & Attribute.Required;
-    facebookUrl: Attribute.String & Attribute.Required;
-    xUrl: Attribute.String & Attribute.Required;
-    linkedInUrl: Attribute.String & Attribute.Required;
+    facebookUrl: Attribute.String;
+    xUrl: Attribute.String;
+    linkedInUrl: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
