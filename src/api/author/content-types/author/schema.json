@@ -31,6 +31,18 @@
     "description": {
       "type": "string",
       "required": true
+    },
+    "facebookUrl": {
+      "type": "string",
+      "required": true
+    },
+    "xUrl": {
+      "type": "string",
+      "required": true
+    },
+    "linkedInUrl": {
+      "type": "string",
+      "required": true
     }
   }
 }
